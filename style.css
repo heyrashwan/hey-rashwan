@@ -1,0 +1,81 @@
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+
+body, html{
+	overflow-x: initial!important;
+	overflow-y: auto!important;
+	font-family: 'Cormorant Garamond', sans-serif;
+	background-color: rgb(230, 230, 222);
+}
+
+.main {
+	background-color: white;
+	border-bottom:;
+}
+
+.container{
+	margin-top: 0px;
+}
+
+.zone1 {
+	width: 1100px;
+	height: 1164px;
+	background-color: rgb(230, 230, 222);
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.zone1 .poster{
+	position: absolute;
+	z-index: 9;
+	top: 120px;
+	left: 0px;
+}
+
+.zone1 .introduce {
+	position: absolute;
+	top: 206px;
+	left: 505px;
+	width: 559px;
+	padding: 80px;
+	background-color: rgb(244, 255, 95);
+}
+
+.zone1 .poster img {
+	display: block;
+	object-fit: cover;
+	width: 560px;
+	height: 696px;
+}
+
+.nav-link {
+	font-weight: 500;
+	font-size: 19px;
+	letter-spacing: 0.26px;
+	color: rgb(0, 0, 0);
+}
+
+.nav-link:hover {
+	color: rgb(0, 0, 0);
+	outline-color: rgb(244, 255, 95);
+}
+
+.btn {
+	border-radius: 300px;
+	font-weight: 500px;
+	text-transform: uppercase;
+	letter-spacing: 0.26px;
+	background-color: white;
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #FF5844;
+	border-color: #FF5844;
+	color: white;
+}
+
